@@ -13,4 +13,4 @@ $inputButton.value = "View pokemon";
 $form.appendChild($inputBox);
 $form.appendChild($inputButton);
 $root.appendChild($form);
-() => import('./app/pokemon.js');
+import('./pokemon.js');
